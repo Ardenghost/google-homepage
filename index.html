@@ -6,17 +6,20 @@
     <title>Google Homepage</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/5dd0b85b3c.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
 <div class="navbar">
     <ul>
-        <li><button class="button">Sign in</button>
+        <li><button class="signin">Sign in</button>
 
         </li>
         <li>
             <a href="#news">
-            <span class="material-icons"> apps</span>
+            <span class="material-icons apps"> apps</span>
         </a>
         </li>
         <li><a src="" href="#contact">Images</a></li>
@@ -24,10 +27,49 @@
       </ul>
     </div>
 
-<div id="googleimg">
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
-</div>
 
+        <!-- #02. Title / Search Bar -->
+
+<section class="main-container">
+
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+    
+    <form class="search-bar" action="/action_page.php">
+        <input class="form-box" type="text" name="search">
+        <i class="fas fa-search"></i>
+
+
+        
+    </form>
+    <div class="btn-row">
+        <button class="btn-one buttons">Google Search</button>
+        <button class="btn-two buttons">I'm Feeling Lucky</button>
+    </div>
+    
+    <div class="languages">
+        <p>Google offered in: <a href=""> : 中文(简体</a> <a href="">  Français</a>
+
+        </p>
+    </div>
+
+
+</section>
+
+
+    <!-- #03. Footer -->
+
+ <!-- #03. Footer -->
+
+ <footer class="footer-container">
+    <ul class="footer-list">
+        <li class="footer-left"><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+
+        <li class="footer-right"><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li class="settings-pad"><a href="#">Settings</a></li>
+    </ul>
+</footer>
 
 
 </body>
