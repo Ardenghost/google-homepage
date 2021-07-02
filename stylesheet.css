@@ -87,20 +87,31 @@
    border: none;
    outline: none; 
    font-size: medium;
-   padding-left: 50px;
+   padding-left: 40px;
 
 }
+
 .search-bar {
-  display: block;
-  flex-direction: row;
-  align-items: center;
+  position:relative;
+
 }
 .fas{
   height: 35px;
-  margin-left: -530px;
   color: #d3d2d2;
   font-size: 20px;
+  position: absolute; 
+  top: calc(50% - 0.5em); 
+  left: 10px;
 }
+.fa-microphone{
+  height: 35px;
+  color: #d3d2d2;
+  font-size: 20px;
+  position: absolute; 
+  top: calc(50% - 0.5em); 
+  right: 10px;
+}
+
 
 .btn-row {
   display: flex;
